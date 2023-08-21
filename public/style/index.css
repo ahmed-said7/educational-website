@@ -1,0 +1,23 @@
+div{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-1{
+    background-color: black;
+    max-width: 350px;
+    height: 200px;
+    margin: 15px;
+}
+
+.user-2{
+    background-color: black;
+    max-width: 350px;
+    height: 200px;
+    margin: 15px;
+}

@@ -1,0 +1,34 @@
+body{
+    background-color: #eee;
+}
+div{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div input{
+    width: 150px;
+    height: 33px;
+    border: 5px;
+    outline: none;
+    border-radius: 6px;
+}
+
+.send {
+
+    width: 57px;
+    outline: none;
+    border-color: azure;
+    height: 35px;
+    padding: 7px;
+    border-radius: 6px;
+    background-color: azure;
+    color: #ddd;
+
+}
